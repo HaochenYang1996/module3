@@ -6,9 +6,7 @@ body {
 
 
 #nav {
-    background-color: white;
-    border-radius: 0;
-    border: 0;
+    background-color: green;
 }
 
 #nav button {
@@ -23,13 +21,14 @@ body {
     background-color: orange;
 }
 
-.navbrand, .navbarnav li a {
+.navbrand, .navbar li a {
     line-height: 76px;
     height: 76px;
 }
 
 
-.navbar-brand h1 {
+
+.navbarbrand h1 {
     color: black;
     font-family: 'Abril Fatface', cursive;
     font-weight: bolder;
@@ -37,7 +36,7 @@ body {
 }
 
 
-.navbar-brand a:hover {
+.navbarbrand a:hover {
     text-decoration: none;
     text-shadow: 1px 1px 1px #fe9797;
 }
@@ -56,13 +55,14 @@ body {
 
 
 #navlist a:hover {
-    color: blue;
-    background-color: blue;
+    color: red;
+    background-color: black;
 }
 
 
 .navbarheader button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid blue;
+    border: 1px solid black;
+    color: black;
 }
 
 
