@@ -1,0 +1,96 @@
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+}
+
+
+#nav {
+    background-color: white;
+    border-radius: 0;
+    border: 0;
+}
+
+#nav button {
+    margin-top: 40px;
+}
+
+.navcollapse {
+    border-top: 0;
+}
+
+.navdefault .navtoggle:focus, .navdefault .navtoggle:hover {
+    background-color: orange;
+}
+
+.navbrand, .navbarnav li a {
+    line-height: 76px;
+    height: 76px;
+}
+
+
+.navbar-brand h1 {
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
+}
+
+
+#navlist {
+    background-color: black;
+}
+
+#navlist a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: orange;
+    font-size: 1.2em;
+}
+
+
+#navlist a:hover {
+    color: blue;
+    background-color: blue;
+}
+
+
+.navbarheader button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid blue;
+}
+
+
+
+#maincontent {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+
+#maincontent h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+#maincontent h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+
+#chicken, #beef, #sushi {
+    width: 90%;
+    padding: 30px;
+    background-color: grey;
+    margin-bottom: 60px;
+}
